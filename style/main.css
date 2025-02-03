@@ -117,7 +117,7 @@ body {
 .text-box .fake-btn {
   background-color: rgb(127, 206, 248);
   border-radius: 3px;
-  margin-bottom: -20px;
+  margin-bottom: -50px;
   bottom: -60px;
   color: white;
   padding: .5rem 1rem;
@@ -157,7 +157,7 @@ body {
   position: relative;
   display: inline-block;
   z-index: 1;
-  margin-top: -110px;
+  margin-top: -150px;
 }
 
 
@@ -281,7 +281,7 @@ body {
   position: relative;
   display: inline-block;
   z-index: 1;
-  margin-top: -140px;
+  margin-top: -160px;
 }
 
 .nine p {
