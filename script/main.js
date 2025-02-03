@@ -1,35 +1,26 @@
-// trigger to play music in the background with sweetalert
-// Audio handling
-// Hide the container initially
+
 document.querySelector('.container').style.visibility = 'hidden';
 
-// Get the audio element
+
 const music = document.getElementById('birthdayMusic');
 const startButton = document.getElementById('startButton');
 const container = document.querySelector('.container');
 
 
 
-// Function to start everything
 function startExperience() {
-    // Play music
     music.play().then(() => {
-        // Remove the start button
         startButton.style.display = 'none';
-        // Start the animation
         animationTimeline();
     }).catch(error => {
         console.log("Audio play failed:", error);
     });
 }
 
-// Add click event listener to the start button
 startButton.addEventListener('click', startExperience);
 
 
-// animation timeline
 const animationTimeline = () => {
-    // split chars that needs to be animated individually
     const textBoxChars = document.getElementsByClassName("hbd-chatbox")[0];
     const hbd = document.getElementsByClassName("wish-hbd")[0];
 
