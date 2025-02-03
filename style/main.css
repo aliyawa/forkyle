@@ -278,7 +278,7 @@ body {
   position: relative;
   display: inline-block;
   z-index: 1;
-  margin-bottom: 30px;
+  margin-top: -60px;
 }
 
 .nine p {
